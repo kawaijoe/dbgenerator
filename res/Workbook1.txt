@@ -1,6 +1,0 @@
-PlayerID	Second	Third	Fourth
-1	SHello	Ttest	Fsdad
-2	Sbye	Tasd	Fasdsadsd
-3	Stest	Tasda	Fpl
-4	Sme	Tkjn	Fjahb
-5	Sthen	Tkjabs	Fasdhba

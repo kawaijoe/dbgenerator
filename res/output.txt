@@ -1,0 +1,19 @@
+
+        String text= "insert into Medal (MedadID, MedalName, MedalDescription, Bronze, Silver, Gold) values (001, “Catcher”, ‘The medal awarded for amount of Mokemon caught by the player’, 5, 50, 150)\n" +
+                "insert into Medal (MedadID, MedalName, MedalDescription, Bronze, Silver, Gold) values (002, “Walker”, ‘The medal awarded for distance walked by the player’, 5.00, 50.00, 500.00)\n" +
+                "insert into Medal (MedadID, MedalName, MedalDescription, Bronze, Silver, Gold) values (003, “ItemCollector”, ‘The medal awarded for amount of item collected by the player’, 100, 500, 1000)\n" +
+                "insert into Medal (MedadID, MedalName, MedalDescription, Bronze, Silver, Gold) values (004, “MartialArtist”, ‘The medal awarded for amount of Fighting Mokemon caught by the player’, 5, 50, 150)\n" +
+                "insert into Medal (MedadID, MedalName, MedalDescription, Bronze, Silver, Gold) values (005, “Ace”, ‘The medal awarded for amount of fights won by the player’, 5, 50, 150)\n" +
+                "insert into Medal (MedadID, MedalName, MedalDescription, Bronze, Silver, Gold) values (006, “Pyromaniac”, ‘The medal awarded for amount of Fire Mokemon caught by the player’, 5, 50, 150)\n" +
+                "insert into Medal (MedadID, MedalName, MedalDescription, Bronze, Silver, Gold) values (007, “Diver”, ‘The medal awarded for amount of Water Mokemon caught by the player’, 5, 50, 150)\n" +
+                "insert into Medal (MedadID, MedalName, MedalDescription, Bronze, Silver, Gold) values (008, “Naturalist”, ‘The medal awarded for amount of Grass Mokemon caught by the player’, 5, 50, 150)\n" +
+                "insert into Medal (MedadID, MedalName, MedalDescription, Bronze, Silver, Gold) values (009, “Rocky”, ‘The medal awarded for amount of Rock Mokemon caught by the player’, 5, 50, 150)\n" +
+                "insert into Medal (MedadID, MedalName, MedalDescription, Bronze, Silver, Gold) values (010, “PowerPlant”, ‘The medal awarded for amount of Electric Mokemon caught by the player’, 5, 50, 150)";
+
+        char[] textArray = text.toCharArray();
+        for(int i = 0; i < textArray.length; i++) {
+            if(textArray[i] == '‘')
+                textArray[i] = '\'';
+        }
+
+        System.out.println(textArray);
